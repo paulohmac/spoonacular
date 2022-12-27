@@ -1,2 +1,2 @@
 # spoonacular
-Spoonacular implementation by Paulo Henrique M
+Spoonacular implementation by Paulo Henrique Silva
