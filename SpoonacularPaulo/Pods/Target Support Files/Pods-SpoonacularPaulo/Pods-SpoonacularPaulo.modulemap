@@ -1,0 +1,6 @@
+framework module Pods_SpoonacularPaulo {
+  umbrella header "Pods-SpoonacularPaulo-umbrella.h"
+
+  export *
+  module * { export * }
+}

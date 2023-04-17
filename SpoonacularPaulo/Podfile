@@ -1,0 +1,7 @@
+platform :ios, '15.0'
+
+target 'SpoonacularPaulo' do
+   use_frameworks!
+  pod 'Moya', '~> 15.0'
+  pod 'Alamofire'
+end

@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33169EFA309DF445A826CFBF /* Pods_SpoonacularPaulo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3452512013857076DFBC6A /* Pods_SpoonacularPaulo.framework */; };
+		8C86722D29151B40004325CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86722C29151B40004325CF /* AppDelegate.swift */; };
+		8C86722F29151B40004325CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86722E29151B40004325CF /* SceneDelegate.swift */; };
+		8C86723129151B40004325CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86723029151B40004325CF /* ViewController.swift */; };
+		8C86723429151B40004325CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C86723229151B40004325CF /* Main.storyboard */; };
+		8C86723629151B46004325CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C86723529151B46004325CF /* Assets.xcassets */; };
+		8C86723929151B46004325CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C86723729151B46004325CF /* LaunchScreen.storyboard */; };
+		8C86724E29151B46004325CF /* SpoonacularPauloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86724D29151B46004325CF /* SpoonacularPauloUITests.swift */; };
+		8C86725029151B46004325CF /* SpoonacularPauloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86724F29151B46004325CF /* SpoonacularPauloUITestsLaunchTests.swift */; };
+		8C86726329151BF1004325CF /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86726229151BF1004325CF /* Recipe.swift */; };
+		8C86726429151BF1004325CF /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86726229151BF1004325CF /* Recipe.swift */; };
+		8C86726629151C08004325CF /* Collor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86726529151C08004325CF /* Collor.swift */; };
+		8C86726729151C08004325CF /* Collor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86726529151C08004325CF /* Collor.swift */; };
+		8CA950C5291521EB007B2F41 /* SpoonacularTargetTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA950C4291521EB007B2F41 /* SpoonacularTargetTestCase.swift */; };
+		8CA950C729152207007B2F41 /* SpoonacularTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA950C629152207007B2F41 /* SpoonacularTarget.swift */; };
+		8CA950C92915220F007B2F41 /* NetWorkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA950C82915220F007B2F41 /* NetWorkDispatcher.swift */; };
+		8CA950CA29152218007B2F41 /* SpoonacularTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA950C629152207007B2F41 /* SpoonacularTarget.swift */; };
+		8CA950CB29152218007B2F41 /* NetWorkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA950C82915220F007B2F41 /* NetWorkDispatcher.swift */; };
+		8CA950CD29153063007B2F41 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA950CC29153063007B2F41 /* MainViewController.swift */; };
+		8CA950CE29153063007B2F41 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA950CC29153063007B2F41 /* MainViewController.swift */; };
+		8CB824472915384200604A0F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB824462915384200604A0F /* MainViewModel.swift */; };
+		8CB824482915384200604A0F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB824462915384200604A0F /* MainViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C86724029151B46004325CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C86722129151B3F004325CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C86722829151B3F004325CF;
+			remoteInfo = SpoonacularPaulo;
+		};
+		8C86724A29151B46004325CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C86722129151B3F004325CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C86722829151B3F004325CF;
+			remoteInfo = SpoonacularPaulo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F3452512013857076DFBC6A /* Pods_SpoonacularPaulo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpoonacularPaulo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E9B05783C14F532881F662 /* Pods-SpoonacularPaulo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpoonacularPaulo.debug.xcconfig"; path = "Target Support Files/Pods-SpoonacularPaulo/Pods-SpoonacularPaulo.debug.xcconfig"; sourceTree = "<group>"; };
+		8C86722929151B40004325CF /* SpoonacularPaulo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpoonacularPaulo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C86722C29151B40004325CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C86722E29151B40004325CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C86723029151B40004325CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C86723329151B40004325CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C86723529151B46004325CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C86723829151B46004325CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C86723A29151B46004325CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C86723F29151B46004325CF /* SpoonacularPauloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpoonacularPauloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C86724929151B46004325CF /* SpoonacularPauloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpoonacularPauloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C86724D29151B46004325CF /* SpoonacularPauloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularPauloUITests.swift; sourceTree = "<group>"; };
+		8C86724F29151B46004325CF /* SpoonacularPauloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularPauloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C86726229151BF1004325CF /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		8C86726529151C08004325CF /* Collor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collor.swift; sourceTree = "<group>"; };
+		8CA950C4291521EB007B2F41 /* SpoonacularTargetTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpoonacularTargetTestCase.swift; sourceTree = "<group>"; };
+		8CA950C629152207007B2F41 /* SpoonacularTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpoonacularTarget.swift; sourceTree = "<group>"; };
+		8CA950C82915220F007B2F41 /* NetWorkDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkDispatcher.swift; sourceTree = "<group>"; };
+		8CA950CC29153063007B2F41 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8CB824462915384200604A0F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CD007AD9A4962CA17047B9E4 /* Pods-SpoonacularPaulo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpoonacularPaulo.release.xcconfig"; path = "Target Support Files/Pods-SpoonacularPaulo/Pods-SpoonacularPaulo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C86722629151B3F004325CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33169EFA309DF445A826CFBF /* Pods_SpoonacularPaulo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C86723C29151B46004325CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C86724629151B46004325CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88A809F4FDBB556632D71822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F3452512013857076DFBC6A /* Pods_SpoonacularPaulo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C86722029151B3F004325CF = {
+			isa = PBXGroup;
+			children = (
+				8C86722B29151B40004325CF /* SpoonacularPaulo */,
+				8C86724229151B46004325CF /* SpoonacularPauloTests */,
+				8C86724C29151B46004325CF /* SpoonacularPauloUITests */,
+				8C86722A29151B40004325CF /* Products */,
+				D75A0154169DBE665C8896DD /* Pods */,
+				88A809F4FDBB556632D71822 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C86722A29151B40004325CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C86722929151B40004325CF /* SpoonacularPaulo.app */,
+				8C86723F29151B46004325CF /* SpoonacularPauloTests.xctest */,
+				8C86724929151B46004325CF /* SpoonacularPauloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C86722B29151B40004325CF /* SpoonacularPaulo */ = {
+			isa = PBXGroup;
+			children = (
+				8CB8244A2915418A00604A0F /* Coordinator */,
+				8C86726129151BBD004325CF /* Main */,
+				8C86726029151BB4004325CF /* Detail */,
+				8C86725F29151BA9004325CF /* NetWork */,
+				8C86725E29151B9F004325CF /* Model */,
+				8C86725C29151B8D004325CF /* Extension */,
+				8C86722C29151B40004325CF /* AppDelegate.swift */,
+				8C86722E29151B40004325CF /* SceneDelegate.swift */,
+				8C86723029151B40004325CF /* ViewController.swift */,
+				8C86723229151B40004325CF /* Main.storyboard */,
+				8C86723529151B46004325CF /* Assets.xcassets */,
+				8C86723729151B46004325CF /* LaunchScreen.storyboard */,
+				8C86723A29151B46004325CF /* Info.plist */,
+			);
+			path = SpoonacularPaulo;
+			sourceTree = "<group>";
+		};
+		8C86724229151B46004325CF /* SpoonacularPauloTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CA950C4291521EB007B2F41 /* SpoonacularTargetTestCase.swift */,
+			);
+			path = SpoonacularPauloTests;
+			sourceTree = "<group>";
+		};
+		8C86724C29151B46004325CF /* SpoonacularPauloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C86724D29151B46004325CF /* SpoonacularPauloUITests.swift */,
+				8C86724F29151B46004325CF /* SpoonacularPauloUITestsLaunchTests.swift */,
+			);
+			path = SpoonacularPauloUITests;
+			sourceTree = "<group>";
+		};
+		8C86725C29151B8D004325CF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8C86726529151C08004325CF /* Collor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8C86725E29151B9F004325CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C86726229151BF1004325CF /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C86725F29151BA9004325CF /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				8CA950C629152207007B2F41 /* SpoonacularTarget.swift */,
+				8CA950C82915220F007B2F41 /* NetWorkDispatcher.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		8C86726029151BB4004325CF /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		8C86726129151BBD004325CF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8CA950CC29153063007B2F41 /* MainViewController.swift */,
+				8CB824462915384200604A0F /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8CB8244A2915418A00604A0F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D75A0154169DBE665C8896DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17E9B05783C14F532881F662 /* Pods-SpoonacularPaulo.debug.xcconfig */,
+				CD007AD9A4962CA17047B9E4 /* Pods-SpoonacularPaulo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C86722829151B3F004325CF /* SpoonacularPaulo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C86725329151B46004325CF /* Build configuration list for PBXNativeTarget "SpoonacularPaulo" */;
+			buildPhases = (
+				FBF367845DEC8343842ACE57 /* [CP] Check Pods Manifest.lock */,
+				8C86722529151B3F004325CF /* Sources */,
+				8C86722629151B3F004325CF /* Frameworks */,
+				8C86722729151B3F004325CF /* Resources */,
+				F60ED0F132EB8FDB492DB826 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpoonacularPaulo;
+			productName = SpoonacularPaulo;
+			productReference = 8C86722929151B40004325CF /* SpoonacularPaulo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C86723E29151B46004325CF /* SpoonacularPauloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C86725629151B46004325CF /* Build configuration list for PBXNativeTarget "SpoonacularPauloTests" */;
+			buildPhases = (
+				8C86723B29151B46004325CF /* Sources */,
+				8C86723C29151B46004325CF /* Frameworks */,
+				8C86723D29151B46004325CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C86724129151B46004325CF /* PBXTargetDependency */,
+			);
+			name = SpoonacularPauloTests;
+			productName = SpoonacularPauloTests;
+			productReference = 8C86723F29151B46004325CF /* SpoonacularPauloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C86724829151B46004325CF /* SpoonacularPauloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C86725929151B46004325CF /* Build configuration list for PBXNativeTarget "SpoonacularPauloUITests" */;
+			buildPhases = (
+				8C86724529151B46004325CF /* Sources */,
+				8C86724629151B46004325CF /* Frameworks */,
+				8C86724729151B46004325CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C86724B29151B46004325CF /* PBXTargetDependency */,
+			);
+			name = SpoonacularPauloUITests;
+			productName = SpoonacularPauloUITests;
+			productReference = 8C86724929151B46004325CF /* SpoonacularPauloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C86722129151B3F004325CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8C86722829151B3F004325CF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					8C86723E29151B46004325CF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 8C86722829151B3F004325CF;
+					};
+					8C86724829151B46004325CF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 8C86722829151B3F004325CF;
+					};
+				};
+			};
+			buildConfigurationList = 8C86722429151B3F004325CF /* Build configuration list for PBXProject "SpoonacularPaulo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C86722029151B3F004325CF;
+			productRefGroup = 8C86722A29151B40004325CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C86722829151B3F004325CF /* SpoonacularPaulo */,
+				8C86723E29151B46004325CF /* SpoonacularPauloTests */,
+				8C86724829151B46004325CF /* SpoonacularPauloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C86722729151B3F004325CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C86723929151B46004325CF /* LaunchScreen.storyboard in Resources */,
+				8C86723629151B46004325CF /* Assets.xcassets in Resources */,
+				8C86723429151B40004325CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C86723D29151B46004325CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C86724729151B46004325CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F60ED0F132EB8FDB492DB826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpoonacularPaulo/Pods-SpoonacularPaulo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpoonacularPaulo/Pods-SpoonacularPaulo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpoonacularPaulo/Pods-SpoonacularPaulo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF367845DEC8343842ACE57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpoonacularPaulo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C86722529151B3F004325CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C86723129151B40004325CF /* ViewController.swift in Sources */,
+				8CB824472915384200604A0F /* MainViewModel.swift in Sources */,
+				8C86722D29151B40004325CF /* AppDelegate.swift in Sources */,
+				8CA950C729152207007B2F41 /* SpoonacularTarget.swift in Sources */,
+				8C86722F29151B40004325CF /* SceneDelegate.swift in Sources */,
+				8CA950C92915220F007B2F41 /* NetWorkDispatcher.swift in Sources */,
+				8C86726329151BF1004325CF /* Recipe.swift in Sources */,
+				8C86726629151C08004325CF /* Collor.swift in Sources */,
+				8CA950CD29153063007B2F41 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C86723B29151B46004325CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA950CA29152218007B2F41 /* SpoonacularTarget.swift in Sources */,
+				8CA950C5291521EB007B2F41 /* SpoonacularTargetTestCase.swift in Sources */,
+				8CA950CB29152218007B2F41 /* NetWorkDispatcher.swift in Sources */,
+				8CA950CE29153063007B2F41 /* MainViewController.swift in Sources */,
+				8C86726729151C08004325CF /* Collor.swift in Sources */,
+				8C86726429151BF1004325CF /* Recipe.swift in Sources */,
+				8CB824482915384200604A0F /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C86724529151B46004325CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C86725029151B46004325CF /* SpoonacularPauloUITestsLaunchTests.swift in Sources */,
+				8C86724E29151B46004325CF /* SpoonacularPauloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C86724129151B46004325CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C86722829151B3F004325CF /* SpoonacularPaulo */;
+			targetProxy = 8C86724029151B46004325CF /* PBXContainerItemProxy */;
+		};
+		8C86724B29151B46004325CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C86722829151B3F004325CF /* SpoonacularPaulo */;
+			targetProxy = 8C86724A29151B46004325CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C86723229151B40004325CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C86723329151B40004325CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C86723729151B46004325CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C86723829151B46004325CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C86725129151B46004325CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C86725229151B46004325CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C86725429151B46004325CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E9B05783C14F532881F662 /* Pods-SpoonacularPaulo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A435HEWTZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpoonacularPaulo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.spoonacular.SpoonacularPaulo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C86725529151B46004325CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD007AD9A4962CA17047B9E4 /* Pods-SpoonacularPaulo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A435HEWTZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpoonacularPaulo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.spoonacular.SpoonacularPaulo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C86725729151B46004325CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A435HEWTZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.spoonacular.SpoonacularPauloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpoonacularPaulo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpoonacularPaulo";
+			};
+			name = Debug;
+		};
+		8C86725829151B46004325CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A435HEWTZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.spoonacular.SpoonacularPauloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpoonacularPaulo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpoonacularPaulo";
+			};
+			name = Release;
+		};
+		8C86725A29151B46004325CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A435HEWTZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.spoonacular.SpoonacularPauloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpoonacularPaulo;
+			};
+			name = Debug;
+		};
+		8C86725B29151B46004325CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A435HEWTZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.spoonacular.SpoonacularPauloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpoonacularPaulo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C86722429151B3F004325CF /* Build configuration list for PBXProject "SpoonacularPaulo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C86725129151B46004325CF /* Debug */,
+				8C86725229151B46004325CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C86725329151B46004325CF /* Build configuration list for PBXNativeTarget "SpoonacularPaulo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C86725429151B46004325CF /* Debug */,
+				8C86725529151B46004325CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C86725629151B46004325CF /* Build configuration list for PBXNativeTarget "SpoonacularPauloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C86725729151B46004325CF /* Debug */,
+				8C86725829151B46004325CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C86725929151B46004325CF /* Build configuration list for PBXNativeTarget "SpoonacularPauloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C86725A29151B46004325CF /* Debug */,
+				8C86725B29151B46004325CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C86722129151B3F004325CF /* Project object */;
+}
